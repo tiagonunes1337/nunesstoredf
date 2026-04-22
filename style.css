@@ -1,0 +1,123 @@
+/* Estilos globais da página */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Hero section: imagem de fundo com overlay e texto em branco */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("img/placamaeimagem.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Conteúdo interno do hero para manter o texto acima do overlay */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 620px;
+  padding: 80px 20px;
+}
+
+/* Estilo do título principal do hero */
+.titulo {
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.descricao {
+  font-size: 1.05rem;
+  color: #f1f1f1;
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+.descricao.secundaria {
+  margin-top: 1.5rem;
+}
+
+/* Contêiner de botões do hero */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.7rem;
+}
+
+/* Botões personalizados usados no hero e em outras partes do site */
+.btn-custom {
+  padding: 0.95rem 1.6rem;
+  font-weight: 700;
+}
+
+/* Layout dos cartões de produtos centralizados e espaçados */
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.product-card {
+  width: 18rem;
+  min-width: 18rem;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+/* Estilos para os cartões de produtos */
+.card-textborder {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.card-textdescricao {
+  font-size: 0.95rem;
+  color: #555;
+}        
+
+/* Estilização da Seção de Contato Final */
+.descricao-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #6c757d;
+}
+
+.btn-contato-final {
+    width: 100%;
+    max-width: 350px; /* Mantém os botões com o mesmo tamanho */
+    padding: 12px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-contato-final:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Ajuste opcional para o título da seção */
+h2 {
+    font-weight: 700;
+    color: #212529;
+}
