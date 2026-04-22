@@ -44,3 +44,4 @@ Basta abrir o arquivo `index.html` diretamente no navegador. Não há dependênc
 - WhatsApp: [+55 61 98138-9650](https://wa.me/5561981389650)
 - Instagram: [@nunesstoredf](https://www.instagram.com/nunesstoredf/)
 - Facebook: [NunesStoreDF](https://www.facebook.com/nunesstoredf)
+- Olx: [Tiago Nunes](https://www.olx.com.br/perfil/tiago-nunes-f1039af3)
